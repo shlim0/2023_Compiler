@@ -1,0 +1,36 @@
+{
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+
+  // LLDB 디버거 설정
+  //https://velog.io/@hye0n/Mac-%ED%99%98%EA%B2%BD-vscode-%EC%97%90%EC%84%9C-C%EC%96%B8%EC%96%B4-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85-feat.%EB%94%94%EB%B2%84%EA%B9%85
+  // 위 블로그에는 안나와있는데 CLI에서 lldb 설치하고 vscode LLDB 설치해서 짝짜꿍 해주면 되네...
+
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) 시작",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Launch",
+      "program": "${workspaceFolder}/a.out",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "sourceMap": {
+        "<source tree path at compilation time>": "<source tree path during debugging>"
+      }
+    }
+  ]
+}
