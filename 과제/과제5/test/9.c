@@ -1,0 +1,1 @@
+goto my_home;
