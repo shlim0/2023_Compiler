@@ -1,0 +1,36 @@
+	      INT   0, 40
+	      SUP   0, main
+	      RET   0, 0
+main:
+	      INT   0, 28
+	      LDA   1, 12
+	     LITI   0, 10
+	      STX   0, 1
+	      POP   0, 1
+	      LDA   1, 16
+	      LOD   0, 12
+	      STX   0, 1
+	      POP   0, 1
+	      LDA   1, 20
+	     LITI   0, 99
+	     STXB   0, 0
+	      POP   0, 1
+	      LDA   1, 24
+	      LDA   0, 16
+	      STX   0, 1
+	      POP   0, 1
+	      INT   0, 12
+	      LDA   0, 24
+	      LOD   1, 16
+	     CVTI   0, 0
+	      LOD   1, 12
+	     CVTF   0, 0
+	      LOD   1, 20
+	      LOD   1, 24
+	      POP   0, 8
+	     ADDR   0, printf
+	      CAL   0, 0
+	      RET   0, 0
+.literal    12  22.200001
+.literal    16  "cast"
+.literal    24  "%d %f %d %d\n"

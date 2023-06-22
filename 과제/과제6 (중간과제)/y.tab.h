@@ -1,0 +1,60 @@
+#ifndef _yy_defines_h_
+#define _yy_defines_h_
+
+#define IDENTIFIER 257
+#define TYPE_IDENTIFIER 258
+#define FLOAT_CONSTANT 259
+#define INTEGER_CONSTANT 260
+#define CHARACTER_CONSTANT 261
+#define STRING_LITERAL 262
+#define PLUS 263
+#define MINUS 264
+#define PLUSPLUS 265
+#define MINUSMINUS 266
+#define BAR 267
+#define AMP 268
+#define BARBAR 269
+#define AMPAMP 270
+#define ARROW 271
+#define SEMICOLON 272
+#define LSS 273
+#define GTR 274
+#define LEQ 275
+#define GEQ 276
+#define EQL 277
+#define NEQ 278
+#define DOTDOTDOT 279
+#define LP 280
+#define RP 281
+#define LB 282
+#define RB 283
+#define LR 284
+#define RR 285
+#define PERIOD 286
+#define COMMA 287
+#define EXCL 288
+#define STAR 289
+#define SLASH 290
+#define PERCENT 291
+#define ASSIGN 292
+#define COLON 293
+#define AUTO_SYM 294
+#define STATIC_SYM 295
+#define TYPEDEF_SYM 296
+#define STRUCT_SYM 297
+#define ENUM_SYM 298
+#define SIZEOF_SYM 299
+#define UNION_SYM 300
+#define IF_SYM 301
+#define ELSE_SYM 302
+#define WHILE_SYM 303
+#define DO_SYM 304
+#define FOR_SYM 305
+#define CONTINUE_SYM 306
+#define BREAK_SYM 307
+#define RETURN_SYM 308
+#define SWITCH_SYM 309
+#define CASE_SYM 310
+#define DEFAULT_SYM 311
+
+#endif /* _yy_defines_h_ */

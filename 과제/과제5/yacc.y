@@ -2,6 +2,8 @@
      #include <stdio.h>
      #include <stdlib.h>
      int line_no = 1;
+     int yyerror(char *s);
+     int yylex();
 %}
 
 %token IDENTIFIER TYPE_IDENTIFIER FLOAT_CONSTANT INTEGER_CONSTANT
@@ -324,7 +326,7 @@ logical_and_expression
      ;
 
 logical_or_expression
-     : logical_and_expression˚ƒ
+     : logical_and_expression
      | logical_or_expression BARBAR logical_and_expression
      ;
 

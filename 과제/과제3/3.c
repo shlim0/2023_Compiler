@@ -4,8 +4,8 @@
 
 int yyparse();
 int yylex();
-void shift();
-void reduce();
+void shift(int);
+void reduce(int);
 void yyerror();
 void lex_error();
 

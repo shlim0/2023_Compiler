@@ -2112,4 +2112,3 @@ int checkIdentifier(char *s)
 
 	return(IDENTIFIER);
 }
-
